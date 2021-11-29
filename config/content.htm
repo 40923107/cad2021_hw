@@ -13,16 +13,47 @@
 <p>Inventor Wink</p>
 <p></p>
 <script>
-var winkVideoData = {
+var winkVideoData2 = {
   dataVersion: 1,
   frameRate: 10,
   buttonFrameLength: 5,
   buttonFrameOffset: 2,
   frameStops: {
+    "2": [
+      { type: "gotoframe", rect: { x: 360, y: 280, width: 60, height: 24 }, target: 3 },
+    ],
+    "27": [
+      { type: "gotoframe", rect: { x: 337, y: 196, width: 60, height: 24 }, target: 2 },
+      { type: "gotoframe", rect: { x: 417, y: 197, width: 60, height: 24 }, target: 28 },
+    ],
+    "105": [
+      { type: "gotoframe", rect: { x: 711, y: 290, width: 60, height: 24 }, target: 27 },
+      { type: "gotoframe", rect: { x: 795, y: 290, width: 60, height: 24 }, target: 106 },
+    ],
+    "137": [
+      { type: "gotoframe", rect: { x: 609, y: 327, width: 60, height: 24 }, target: 105 },
+      { type: "gotoframe", rect: { x: 687, y: 326, width: 60, height: 24 }, target: 138 },
+    ],
+    "147": [
+      { type: "gotoframe", rect: { x: 764, y: 307, width: 60, height: 24 }, target: 137 },
+      { type: "gotoframe", rect: { x: 842, y: 306, width: 60, height: 24 }, target: 148 },
+    ],
+    "212": [
+      { type: "gotoframe", rect: { x: 257, y: 184, width: 60, height: 24 }, target: 147 },
+      { type: "gotoframe", rect: { x: 340, y: 184, width: 60, height: 24 }, target: 213 },
+    ],
+    "310": [
+      { type: "gotoframe", rect: { x: 165, y: 146, width: 60, height: 24 }, target: 212 },
+      { type: "gotoframe", rect: { x: 245, y: 146, width: 60, height: 24 }, target: 311 },
+    ],
+    "434": [
+      { type: "gotoframe", rect: { x: 271, y: 288, width: 60, height: 24 }, target: 310 },
+      { type: "gotoframe", rect: { x: 346, y: 288, width: 60, height: 24 }, target: 435 },
+    ],
   },
 };
 </script>
-<div class="winkVideoContainerClass"><video class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" height="756" width="1344">
+<div class="winkVideoContainerClass"><video class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData2" height="756" width="1344">
 <source src="./../downloads/Inv.mp4" type="video/mp4"/></video>
 <div class="winkVideoOverlayClass"></div>
 <div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
